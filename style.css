@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:not(i) {
+  font-family: "Roboto", "Open sans", sans-serif;
+  transition: all 0.5s ease;
+}
+a {
+  text-decoration: none;
+}
+.font__weight {
+  font-weight: 600;
+}
+a.header__logo {
+  font-size: 2.125rem;
+  transition: box-shadow 0.4s ease;
+}
+a.header__logo:hover {
+  box-shadow: 3px 4px 8px #fbf8f8;
+}
+/*=========
+Banner section start
+===========
+*/
+.banner-section {
+  background: url(./img/Banner.jpg) no-repeat center center;
+  padding: 200px 0px;
+}
+.banner-transparent-img img {
+  background: url(./img/Silon\ -\ ecommerce\ template.png) no-repeat center
+    center;
+  width: fit-content;
+}
+.banner-caption > p {
+  font-size: 0.75;
+  margin-bottom: 0;
+}
+.banner-caption-title {
+  font-size: 3.75rem;
+  text-transform: capitalize;
+}
+.btn-bg-color {
+  background-color: #ff5353;
+  color: #ffffff;
+  margin-top: 1.75rem;
+}
+.btn-bg-color:hover {
+  color: lightcyan;
+}
+/*=========
+Banner section End
+===========
+*/
+
+/*=========
+Feature Products Section Start
+===========
+*/
+.heading {
+  font-size: 2.125rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+/* .feature-products__preview {
+  background: url(./img/feature-products-1.png) no-repeat center center;
+  width: 100%;
+  min-height: 300px;
+  border-radius: 10px;
+} */
+.feature-products {
+  position: relative;
+  text-align: center;
+}
+.feature-products .feature-products__preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 5;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 100%;
+  transform: perspective(400px) rotateZ(-900deg);
+  transform-origin: center bottom 0;
+  transition: all 0.5s ease 0s;
+}
+.feature-products img {
+  width: 100%;
+}
+
+.feature-products__preview span {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.feature-products:hover .feature-products__preview,
+.feature-products.active .feature-products__preview {
+  opacity: 1;
+  transform: perspective(400px) rotateZ(0deg);
+}
+.feature-products__content h5 {
+  color: #888888;
+  font-size: 14px;
+}
+.feature-products__content .rating i {
+  color: #ff5353;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.products-price i {
+  font-size: 18pt;
+  color: #000000;
+}
+.products-price span {
+  font-size: 18pt;
+  font-weight: 700;
+  color: #000000;
+}
+/*-----------
+Discount Banner Styles
+-------------*/
+.discount-banner {
+  background: url(./img/discount-banner.png) no-repeat center center;
+  padding: 200px 0px;
+}
+.discount-title {
+  color: #2a2a2a;
+  font-size: 100pt;
+  text-transform: uppercase;
+}
+.discount-heading {
+  color: #4a4a4a;
+  font-size: 42px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+/*---------
+Follow Social Media Style Here
+-----------*/
+.social-media-__content {
+  background: url(./img/social-media.png) no-repeat center center;
+  background-color: #9a9a9a;
+  min-height: 250px;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+.social-media-__content:hover {
+  background: url(./img/social-media-overlly.png) no-repeat center center;
+  background-color: #ff5353;
+  opacity: 0.7;
+  min-height: 250px;
+  border-radius: 3px;
+}
+.social-media-__content i {
+  color: #ffffff;
+  margin: 40%;
+  font-size: 34pt;
+  padding: 0 10px;
+  opacity: 0;
+}
+.social-media-__content:hover i {
+  opacity: 1;
+}
+/*---------
+Footer Section Start Here
+-----------*/
+.footer-bg {
+  background: url(./img/footer-bg.png) no-repeat center center;
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
+  padding: 40px 0;
+}
+#footer h5 {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+#footer h5:last-child {
+  margin-left: 0;
+}
+#footer a.footer-item {
+  color: #888888;
+}
+.app-store {
+  display: flex;
+}
+.app-store a {
+  display: inline-block;
+}
+.app-store img {
+  width: 90%;
+}
+.social-link a {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px;
+  transition: all 0.5s ease-in;
+}
+.social-link a:hover {
+  background-color: #ff5353;
+}
+.social-link a.active {
+  background-color: #ff5353;
+  color: #ffffff;
+}
+.social-link a:hover i {
+  color: #fbf8f8;
+}
+.copyright span {
+  color: #ff5353;
+}
