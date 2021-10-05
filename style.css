@@ -150,10 +150,9 @@ Services Section Style Here
   text-align: center;
   padding: 20px;
 }
-.service-wrapper img {
-  width: 34px;
-  height: 34px;
-  background-color: #ff5353;
+.service-wrapper i {
+  font-size: 48px;
+  color: #ff5353;
   margin-bottom: 18px;
 }
 .service-wrapper h6 {
