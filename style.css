@@ -144,6 +144,72 @@ Discount Banner Styles
 }
 
 /*---------
+Services Section Style Here
+-----------*/
+.service-wrapper {
+  text-align: center;
+  padding: 20px;
+}
+.service-wrapper img {
+  width: 34px;
+  height: 34px;
+  background-color: #ff5353;
+  margin-bottom: 18px;
+}
+.service-wrapper h6 {
+  color: #000000;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.service-wrapper p {
+  color: #888888;
+  font-size: 14px;
+}
+
+/*---------
+Blog Section Style Here
+-----------*/
+#silon-journal .blog-content p {
+  color: #888888;
+  font-size: 13px;
+}
+#silon-journal .blog-content ul.nav > li > span.dash {
+  color: #ff5353;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 45px;
+}
+
+#silon-journal .blog-content ul.nav > li > span.times {
+  color: #9a9a9a;
+  font-size: 13px;
+}
+#silon-journal .blog-content h3 {
+  font-weight: 700;
+  padding: 10px 0;
+}
+#silon-journal .blog-content h3 > a {
+  color: #000000;
+  font-size: 20px;
+}
+#silon-journal .blog-content h3:hover {
+  color: #000000;
+}
+.comments-area {
+  display: flex;
+  justify-content: space-between;
+}
+.comments-area p {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.comments-area p > span {
+  margin-right: 10px;
+  color: #888888;
+  font-size: 14px;
+}
+
+/*---------
 Follow Social Media Style Here
 -----------*/
 .social-media-__content {
