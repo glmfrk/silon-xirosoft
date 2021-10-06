@@ -21,9 +21,28 @@ a.header__logo:hover {
   box-shadow: 3px 4px 8px #fbf8f8;
 }
 /*=========
+Header section Style
+===========
+*/
+
+.menu-right span > i {
+  color: #444444;
+}
+/*=========
 Banner section start
 ===========
 */
+#header-top {
+  background-color: #fef7f6;
+  margin: -16px 0px;
+}
+a.contact {
+  color: #000000;
+}
+.top-navbar-right > .menu-item > a.menu-link {
+  color: #000000;
+}
+
 .banner-section {
   background: url(./img/Banner.jpg) no-repeat center center;
   padding: 200px 0px;
@@ -150,9 +169,11 @@ Services Section Style Here
   text-align: center;
   padding: 20px;
 }
-.service-wrapper i {
-  font-size: 48px;
-  color: #ff5353;
+.service-wrapper img {
+  /* font-size: 48px;
+  color: #ff5353; */
+  width: 48px;
+  height: 48px;
   margin-bottom: 18px;
 }
 .service-wrapper h6 {
@@ -240,9 +261,9 @@ Follow Social Media Style Here
 Footer Section Start Here
 -----------*/
 .footer-bg {
-  background: url(./img/footer-bg.png) no-repeat center center;
+  background: url(./img/footer-bg.png) repeat-y center center;
   width: 100%;
-  height: auto;
+  height: 100% !important;
   margin-top: 75px;
   padding: 40px 0;
 }
@@ -289,3 +310,14 @@ Footer Section Start Here
 .copyright span {
   color: #ff5353;
 }
+/* .owl-item {
+  background: url(./img/popular-hover.png) no-repeat center center;
+  height: 200px;
+} */
+/*
+.owl-item.active {
+  
+  border: 1px solid;
+  background-color: #ababaf;
+}
+*/
